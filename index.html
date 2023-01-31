@@ -6,13 +6,28 @@
     <title>9B2</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+	  <style>
+		  * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+	  </style>
   </head>
   <body>
     <main>
-        <img src="IMG_4369.png" alt="Vacker bild på vår klass" width="800">  
-	<br>
-	<img src="IMG_9630.png" alt="Vacker bild på vår klass" width="800">
-	<br>
+	    <div class="imgbox">
+		    <img class="center-fit" src="IMG_4369.png" alt="Vacker bild på vår klass">
+		    <img class="center-fit" src="IMG_9630.png" alt="Vacker bild på vår klass" width="800">
+	    </div>
     </main>
 	<script src="index.js"></script>
   </body>
