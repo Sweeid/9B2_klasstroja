@@ -11,24 +11,49 @@
             margin: 0;
             padding: 0;
         }
-        .imgbox {
-            display: grid;
-            height: 100%;
+        .tiktok-div {
+          margin: 30px 0px 0px 70px;
         }
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
+        .picture-div {
+          margin: 30px 0px 0px 30px;
+        }
+        .titel-div{
+          margin: 30px 0px 0px 30px
+        }
+        .tiktok-href{
+          background-color:lightsteelblue;
+          padding: 10px 20px 10px 20px;
+          border-radius: 50px;
+          font-size: 30px;
+        }
+        .picture-background{
+          background-color: lightsteelblue;
+          padding: 5px 5px 5px 5px;
+          border-radius: 5px;
+
+          max-width: 100%;
+          max-height: 100vh;
+          margin: auto;
+        }
+        .titel-p{
+          font-size: 30px;
         }
 	  </style>
   </head>
   <body>
     <main>
-         <a href src="https://www.tiktok.com/@og_9b2?_t=8ZVgtTIKm2g&_r=1">9B2s vackra tiktoks</a>
-	    <div class="imgbox">
-		    <img class="center-fit" src="IMG_4369.png" alt="Vacker bild på vår klass">
-		    <img class="center-fit" src="IMG_9630.png" alt="Vacker bild på vår klass">
-	    </div>
+      <div class="tiktok-div">
+        <a class="tiktok-href" href="https://www.tiktok.com/@og_9b2?_t=8ZVgtTIKm2g&_r=1">9B2s vackra tiktoks</a>
+      </div>
+      <div class="titel-div">
+        <p class="titel-p">Här är några bilder på vår speciella klass</p>
+      </div>
+        <div class="picture-div">
+          <img class="picture-background" src="IMG_4369.png" alt="Vacker bild på vår klass">
+        </div>
+		    <div class="picture-div">
+          <img class="picture-background" src="IMG_9630.png" alt="Vacker bild på vår klass">
+        </div>
     </main>
 	<script src="index.js"></script>
   </body>
